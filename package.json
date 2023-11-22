@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "build": "vite build",
-    "preview": "vite preview --port 4000"
+    "build": "vite build build --output dist"
   },
   "author": "Kornkanok L.",
   "license": "ISC",
