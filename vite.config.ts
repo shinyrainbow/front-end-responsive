@@ -16,8 +16,8 @@ export default defineConfig({
     jsxFactory: 'jsx',
   },
   server: {
-    host: true,
-    open: true,
+    // host: true,
+    // open: true,
     port: 4000,
   },
   build: {
