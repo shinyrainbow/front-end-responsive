@@ -66,7 +66,7 @@ const App = () => {
       </div>
 
       <div className="relative hidden md:block">
-        <div className="absolute md:-left-[calc(100vw-80%)] md:block md:h-[699px] md:w-[518px] lg:left-[100px] xl:-top-[50px] xl:h-[950px] xl:w-[678px]">
+        <div className="absolute md:-left-[calc(100vw-76%)] md:block md:h-[699px] md:w-[518px] lg:left-[100px] xl:-top-[50px] xl:h-[950px] xl:w-[678px]">
           <img
             src="/rectangle.svg"
             className="absolute -top-[15px] left-[200px] opacity-30 xl:hidden"
