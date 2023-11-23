@@ -13,7 +13,7 @@ const Content = ({
   return (
     <div
       className={clsx(
-        "md:min-w-[470px] md:max-w-[470px] md:py-[30px] lg:min-w-[50vw] lg:max-w-[50vw] xl:py-[60px]",
+        "md:min-w-[470px] md:max-w-[470px] md:py-[30px] lg:min-w-[50%] lg:max-w-[50%] xl:py-[60px]",
         bgColor
       )}
     >

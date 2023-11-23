@@ -66,7 +66,7 @@ const App = () => {
       </div>
 
       <div className="relative hidden md:block">
-        <div className="absolute md:-left-[calc(100vw-76%)] md:block md:h-[699px] md:w-[518px] lg:left-[100px] xl:-top-[50px] xl:h-[950px] xl:w-[678px]">
+        <div className="absolute md:-left-[calc(100vw-76%)] md:h-[699px] md:w-[518px] lg:left-[100px] lg:-top-[25px] xl:-top-[70px] xl:h-[950px] xl:w-[678px]">
           <img
             src="/rectangle.svg"
             className="absolute -top-[15px] left-[200px] opacity-30 xl:hidden"
@@ -122,7 +122,7 @@ const App = () => {
             </ContentLayout>
           );
         })}
-        <div className="absolute md:-right-[calc(100vw-88%)] xl:right-[100px] md:block md:h-[586px] md:w-[691px] md:top-[20px] xl:-top-[30px] xl:h-[815px] xl:w-[991px]">
+        <div className="absolute md:-right-[calc(100vw-85%)] xl:right-[100px] md:h-[586px] md:w-[691px] md:top-[20px] xl:top-[5px] xl:h-[815px] xl:w-[991px]">
           <img
             src="/rectangle.svg"
             className="absolute left-[195px] top-[60px]"
