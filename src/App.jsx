@@ -8,7 +8,7 @@ import SwiperPanel from "./SwiperPanel";
 
 const App = () => {
   return (
-    <div className="relative w-full pt-[20px] md:pt-[50px] xl:pt-[100px]">
+    <div className="relative w-full pt-[20px] md:pt-[50px] xl:pt-[100px] overflow-x-hidden">
       <div className="md:hidden">
         <div>
         <MobileTopic text="ATHLETS" />
