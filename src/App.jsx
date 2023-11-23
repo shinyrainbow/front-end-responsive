@@ -10,6 +10,7 @@ const App = () => {
   return (
     <div className="relative w-full pt-[20px] md:pt-[50px] xl:pt-[100px]">
       <div className="md:hidden">
+        <div>
         <MobileTopic text="ATHLETS" />
         <div className="relative mx-auto h-[251px] w-[200px]">
           <img
@@ -30,7 +31,9 @@ const App = () => {
           />
         </div>
         <SwiperPanel data={firstHalfContent} />
+        </div>
 
+        <div className="mt-[20px]">
         <MobileTopic text="PLAYERS" />
         <div className="relative mx-auto h-[251px] w-[302px]">
           <img
@@ -59,6 +62,7 @@ const App = () => {
           />
         </div>
         <SwiperPanel data={secondHalfContent} />
+        </div>
       </div>
 
       <div className="relative hidden md:block">
@@ -126,6 +130,10 @@ const App = () => {
           <img
             src="/rectangle.svg"
             className="absolute left-[220px] top-[80px] opacity-30"
+          />
+          <img
+            src="/rectangle.svg"
+            className="absolute right-[130px] bottom-[300px]"
           />
           <img
             src="/path-line.svg"
