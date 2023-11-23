@@ -5,7 +5,7 @@ const MobileTopic = ({text}) => {
   return (
     <div
       className={clsx(
-        "w-full px-[20px] text-[50px] leading-normal text-[#E7E7E7]"
+        "w-full px-[20px] text-[50px] text-[#E7E7E7]"
       )}
     >
       {text}

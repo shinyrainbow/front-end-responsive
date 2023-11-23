@@ -5,7 +5,7 @@ const Topic = ({ isRightContent, text }) => {
   return (
     <div
       className={clsx(
-        "flex w-full pb-[15px] md:px-[30px] xl:px-[195px]",
+        "flex w-full pb-[15px] md:px-[30px] xl:px-[195px] xl:pb-[10px]",
         isRightContent ? "md:justify-end" : "md:justify-start"
       )}
     >

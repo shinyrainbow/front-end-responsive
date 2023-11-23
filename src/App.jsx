@@ -62,9 +62,9 @@ const App = () => {
       </div>
 
       <div className="relative hidden md:block">
-        <div className="absolute md:-left-[calc(100vw-85%)] md:block md:h-[699px] md:w-[518px] lg:left-[100px] xl:top-[50px] xl:h-[950px] xl:w-[678px]">
+        <div className="absolute md:-left-[calc(100vw-80%)] md:block md:h-[699px] md:w-[518px] lg:left-[100px] xl:-top-[50px] xl:h-[950px] xl:w-[678px]">
           <img
-            src="/public/rectangle.svg"
+            src="/rectangle.svg"
             className="absolute -top-[15px] left-[200px] opacity-30 xl:hidden"
           />
           <img
@@ -74,6 +74,10 @@ const App = () => {
           <img
             src="/path-line.svg"
             className="absolute right-[80px] top-0 xl:hidden"
+          />
+          <img
+            src="/path-line.svg"
+            className="absolute left-[20px] top-[300px] xl:hidden"
           />
           <img src="/pic1.png" className="absolute" />
         </div>
@@ -114,7 +118,7 @@ const App = () => {
             </ContentLayout>
           );
         })}
-        <div className="absolute top-0 -right-[calc(100vw-88%)] md:block md:h-[586px] md:w-[691px] xl:top-[50px] xl:h-[815px] xl:w-[991px]">
+        <div className="absolute md:-right-[calc(100vw-80%)] xl:right-[100px] md:block md:h-[586px] md:w-[691px] md:top-[20px] xl:-top-[30px] xl:h-[815px] xl:w-[991px]">
           <img
             src="/rectangle.svg"
             className="absolute left-[195px] top-[60px]"
@@ -133,13 +137,13 @@ const App = () => {
           />
           <img
             src="/path-long-line.svg"
-            className="absolute right-[65px] top-[65px] opacity-0 xl:opacity-100"
+            className="absolute right-[65px] top-[25px] opacity-0 xl:opacity-100"
           />
           <img
             src="/path-long-line.svg"
-            className="absolute bottom-[80px] left-[200px] opacity-0 xl:opacity-100"
+            className="absolute bottom-[160px] left-[200px] opacity-0 xl:opacity-100"
           />
-          <img src="/pic2.png" className="absolute" />
+          <img src="/pic2.png" className="absolute " />
         </div>
       </div>
     </div>

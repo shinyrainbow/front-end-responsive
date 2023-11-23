@@ -17,11 +17,11 @@ const Content = ({
         bgColor
       )}
     >
-      <div className="flex items-center">
+      <div className="flex items-center pb-[10px] md:pb-[20px]">
         <div className="mr-[10px]">
           <div
             className={clsx(
-              "mb-[4px] text-[14px] md:text-[18px]",
+              "mb-[4px] text-[14px] md:text-[18px] tracking-[1.5px]",
               numberColor
             )}
           >
@@ -36,7 +36,7 @@ const Content = ({
         </div>
         <span
           className={clsx(
-            "text-[28px] leading-normal tracking-[1.5px] text-[#C2C2C2] md:text-[36px]"
+            "text-[28px] tracking-[1.5px] text-[#C2C2C2] md:text-[36px]"
           )}
         >
           {titleText}
@@ -44,7 +44,7 @@ const Content = ({
       </div>
       <div
         className={clsx(
-          "pt-[15px] md:pt-[20px] text-[15px] leading-normal min-h-[85px] text-black md:text-[20px] md:leading-[28px]",
+          "min-h-[85px] md:min-h-0 text-[15px] text-black md:text-[20px] md:leading-[28px]",
           descriptionColor
         )}
       >
