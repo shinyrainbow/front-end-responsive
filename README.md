@@ -1,8 +1,8 @@
 # front-end-responsive
 
 
-How to run code
-#npm install
-#npm start
+# Run code:
+npm install\
+npm start
 
 # DEMO: https://front-end-responsive-qiqoitn5l-shinyrainbows-projects.vercel.app/
