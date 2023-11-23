@@ -122,7 +122,7 @@ const App = () => {
             </ContentLayout>
           );
         })}
-        <div className="absolute md:-right-[calc(100vw-80%)] xl:right-[100px] md:block md:h-[586px] md:w-[691px] md:top-[20px] xl:-top-[30px] xl:h-[815px] xl:w-[991px]">
+        <div className="absolute md:-right-[calc(100vw-88%)] xl:right-[100px] md:block md:h-[586px] md:w-[691px] md:top-[20px] xl:-top-[30px] xl:h-[815px] xl:w-[991px]">
           <img
             src="/rectangle.svg"
             className="absolute left-[195px] top-[60px]"
@@ -151,7 +151,7 @@ const App = () => {
             src="/path-long-line.svg"
             className="absolute bottom-[160px] left-[200px] opacity-0 xl:opacity-100"
           />
-          <img src="/pic2.png" className="absolute " />
+          <img src="/pic2.png" className="absolute" />
         </div>
       </div>
     </div>
